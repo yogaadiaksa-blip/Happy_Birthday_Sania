@@ -377,21 +377,20 @@
 
     <div class="memory-container">
         <div class="memory-card">
-            <img src="./d1.jpg" alt="First Date" class="memory-img">
-            <div class="memory-date">Her Smile Says It All</div>
-            <div class="memory-caption">You’re truly one of the sweetest girls I know, and I feel lucky to have a sis
-                like you.❤️</div>
+            <img src="./d1.jpeg" alt="First Date" class="memory-img">
+            <div class="memory-date">Your Smile Says It All</div>
+            <div class="memory-caption">You’re truly one of the sweetest girls I know, and I feel lucky to met you and being close to you.❤️</div>
         </div>
         <div class="memory-card">
-            <img src="./d2.jpg" alt="Beach Day" class="memory-img">
-            <div class="memory-date">Together Vibes</div>
+            <img src="./d2.jpeg" alt="Beach Day" class="memory-img">
+            <div class="memory-date">First foto bareng</div>
             <div class="memory-caption">May your journey ahead be filled with happiness, success, and endless
                 smiles.😊💕</div>
         </div>
         <div class="memory-card">
-            <img src="./d3.jpg" alt="Movie Night" class="memory-img">
-            <div class="memory-date">Pretty Soul</div>
-            <div class="memory-caption">Keep being the amazing person you are—you make every moment brighter.🌸💖</div>
+            <img src="./d3.jpeg" alt="Movie Night" class="memory-img">
+            <div class="memory-date"> The Soul that as Pretty as Your Face</div>
+            <div class="memory-caption">Thankyou for saving me your time on your crowded schedule, eventhough youre busy, you always have time for me.🌸💖</div>
         </div>
 
     </div>
@@ -401,9 +400,23 @@
         <p>Every laugh, every chat, and every moment we’ve shared has been truly special.💫<br>
             I’m so grateful for the bond we have, and for the positivity you always bring into my life.<br>
             On your birthday, I just wish for endless happiness, love, and success to come your way.🌸</p>
-        <p>You deserve all the joy in the world—keep shining and spreading your beautiful energy.✨</p>
+        <p>You deserve all the joy in the world keep shining just like the San-shine✨</p>
+        <p>Your Number One Fan</p>
+        <p>Yoga</p>
         <a href="#" class="goodbye-btn">Until We Meet Again 💝</a>
     </section>
+    <audio id="bgMusic" loop preload="auto">
+    <source src="radwimps.mp3" type="audio/mpeg">
+</audio>
+    <script>
+        // Play background music when the page loads
+        window.addEventListener('load', () => {
+            const bgMusic = document.getElementById('bgMusic');
+            bgMusic.volume = 0.5; // Set volume to 50%
+            bgMusic.play().catch(error => {
+                console.log("Autoplay prevented:", error);
+            });
+        });
+    </script>
 </body>
-
 </html>
