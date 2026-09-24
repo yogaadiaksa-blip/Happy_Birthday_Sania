@@ -13,11 +13,24 @@
     <div class="container">
         <h1>Happy Birthday Sania💗</h1>
         <div class="greeting"></div>
-        <button class="cta-button">Kata kata terimakasih 💕</button>
+        <button class="cta-button">Ayo Next > 💕</button>
     </div>
 
     <script src="script.js">
         
+    </script>
+    <audio id="bgMusic" loop preload="auto">
+    <source src="jkt48.mp3" type="audio/mpeg">
+</audio>
+    <script>
+        // Play background music when the page loads
+        window.addEventListener('load', () => {
+            const bgMusic = document.getElementById('bgMusic');
+            bgMusic.volume = 0.5; // Set volume to 50%
+            bgMusic.play().catch(error => {
+                console.log("Autoplay prevented:", error);
+            });
+        });
     </script>
 </body>
 </html>
