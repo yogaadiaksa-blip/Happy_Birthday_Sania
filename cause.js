@@ -16,7 +16,7 @@
         gif: "gif1.gif"
     },
     { 
-        text: "Stay the amazing girl you are—always spreading positivity around. Have the happiest year ahead! 🥳 ", 
+        text: "May happy always find you, and Sang Hyang Widhi protect you that keep your line in the edge your cheeks as smile on your face 🥳 ", 
         emoji: "🌟",
         gif: "gif2.gif"
     }
